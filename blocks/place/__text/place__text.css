@@ -1,0 +1,11 @@
+.place__text{
+  width: 100%;
+  margin: 0 auto;
+  max-width: calc(100% - 32px);
+}
+@media screen and (min-width: 768px){
+  .place__text{
+    max-width: 100%;
+    grid-area: text;
+  }
+}

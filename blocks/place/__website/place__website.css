@@ -1,0 +1,24 @@
+.place__website{
+  margin: 0 auto;
+  width: 100%;
+  max-width: calc(100% - 32px);
+  margin-top: 32px;
+  color: #AAAAAA;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (min-width: 768px){
+  .place__website{
+    margin-top: 0;
+    max-width: 100%;
+    grid-area: website;
+    align-self: end;
+    margin-bottom: 34px;
+  }
+}

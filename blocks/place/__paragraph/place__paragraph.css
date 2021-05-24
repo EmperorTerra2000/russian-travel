@@ -1,0 +1,24 @@
+.place__paragraph{
+  margin: 0;
+  max-width: 100%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.place__paragraph:first-of-type{
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px){
+  .place__paragraph:first-of-type{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .place__paragraph:nth-of-type(2n){
+    margin-top: 26px;
+  }
+}

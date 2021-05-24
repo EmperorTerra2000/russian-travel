@@ -1,0 +1,26 @@
+.place__website-link{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 12px;
+  max-width: calc(100% - 32px);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.place__website-link:hover{
+  opacity: 0.8;
+}
+@media screen and (min-width: 768px){
+  .place__website-link{
+    max-width: 100%;
+    margin-top: 0;
+    grid-area: website;
+    align-self: end;
+  }
+}
