@@ -1,6 +1,8 @@
 .cover__block{
-  display: block;
-  padding: 33px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 62.5vw;
   max-height: 740px;
   background-image: url('../../../images/cover-trains.jpg');
@@ -24,20 +26,4 @@
 }
 .cover__block:hover::before{
   opacity: 0.8;
-}
-
-@media screen and (min-width: 768px){
-  .cover__block{
-    padding: 115px 0;
-  }
-}
-@media screen and (min-width: 1024px){
-  .cover__block{
-    padding: 195px 0;
-  }
-}
-@media screen and (min-width: 1280px){
-  .cover__block{
-    padding: 245px 0;
-  }
 }

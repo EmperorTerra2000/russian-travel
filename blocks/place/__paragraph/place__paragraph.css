@@ -22,3 +22,8 @@
     margin-top: 26px;
   }
 }
+@media screen and (min-width: 1024px){
+  .place__paragraph{
+    font-size: 18px;
+  }
+}

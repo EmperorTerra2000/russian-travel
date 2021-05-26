@@ -13,6 +13,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.place__website[title]{
+  border-bottom: none;
+  cursor: inherit;
+  text-decoration: none;
+}
 @media screen and (min-width: 768px){
   .place__website{
     margin-top: 0;
