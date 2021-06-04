@@ -1,0 +1,23 @@
+.comment{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 382px;
+  align-items: center;
+  margin-top: 48px;
+}
+.comment:first-of-type{
+  margin-top: 42px;
+}
+@media screen and (min-width: 1024px){
+  .comment{
+    margin: 0;
+    max-width: 290px;
+    margin-top: 42px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .comment{
+    max-width: 382px;
+  }
+}

@@ -1,0 +1,19 @@
+.page__spacing{
+  margin: 0 auto;
+  max-width: calc(100% - 32px);
+}
+@media screen and (min-width: 768px){
+  .page__spacing{
+    max-width: calc(100% - 48px);
+  }
+}
+@media screen and (min-width: 976px){
+  .page__spacing{
+    max-width: 928px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .page__spacing{
+    max-width: 1184px;
+  }
+}

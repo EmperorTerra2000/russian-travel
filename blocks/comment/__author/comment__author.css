@@ -1,0 +1,13 @@
+.comment__author{
+  margin: 0;
+  margin-top: 17px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
+}
+@media screen and (min-width: 1024px){
+  .comment__author{
+    order: 1;
+    align-self: flex-start;
+  }
+}

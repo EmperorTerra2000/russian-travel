@@ -1,0 +1,12 @@
+.comment__image{
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  object-position: center;
+}
+@media screen and (min-width: 1024px){
+  .comment__image{
+    align-self: flex-start;
+  }
+}

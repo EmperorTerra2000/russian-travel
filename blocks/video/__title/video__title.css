@@ -1,0 +1,17 @@
+.video__title{
+  margin: 0;
+  position: relative;
+  margin-top: 8px;
+  z-index: 1;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (min-width: 1024px){
+  .video__title{
+    font-size: 36px;
+    line-height: 39px;
+  }
+}

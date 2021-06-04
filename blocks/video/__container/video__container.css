@@ -1,0 +1,21 @@
+.video__container{
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px){
+  .video__container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+    margin-top: 56px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .video__container{
+    margin-top: 72px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .video__container{
+    gap: 18px;
+  }
+}
